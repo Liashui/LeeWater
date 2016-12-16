@@ -13,6 +13,7 @@
 		215DE87C1D6EF42700B3618E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215DE87A1D6EF42700B3618E /* Main.storyboard */; };
 		215DE87E1D6EF42700B3618E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215DE87D1D6EF42700B3618E /* Assets.xcassets */; };
 		215DE8811D6EF42700B3618E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215DE87F1D6EF42700B3618E /* LaunchScreen.storyboard */; };
+		215DE88A1D6EF43E00B3618E /* LeeWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215DE8891D6EF43E00B3618E /* LeeWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		215DE87D1D6EF42700B3618E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		215DE8801D6EF42700B3618E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215DE8821D6EF42700B3618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215DE8881D6EF43E00B3618E /* LeeWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeWaveView.h; sourceTree = "<group>"; };
+		215DE8891D6EF43E00B3618E /* LeeWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		215DE8701D6EF42700B3618E /* MMMMM */ = {
 			isa = PBXGroup;
 			children = (
+				215DE8881D6EF43E00B3618E /* LeeWaveView.h */,
+				215DE8891D6EF43E00B3618E /* LeeWaveView.m */,
 				215DE8741D6EF42700B3618E /* AppDelegate.h */,
 				215DE8751D6EF42700B3618E /* AppDelegate.m */,
 				215DE8771D6EF42700B3618E /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215DE88A1D6EF43E00B3618E /* LeeWaveView.m in Sources */,
 				215DE8791D6EF42700B3618E /* ViewController.m in Sources */,
 				215DE8761D6EF42700B3618E /* AppDelegate.m in Sources */,
 				215DE8731D6EF42700B3618E /* main.m in Sources */,

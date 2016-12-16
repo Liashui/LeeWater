@@ -10,4 +10,7 @@
 
 @interface LeeWaveView : UIView
 
+-(void)start;
+-(void)stop;
+
 @end

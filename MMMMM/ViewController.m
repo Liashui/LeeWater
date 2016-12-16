@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LeeWaveView.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    LeeWaveView *wave = [[LeeWaveView alloc]initWithFrame:CGRectMake(0,100, 320, 40)];
+    [self.view addSubview:wave];
 }
 
 - (void)didReceiveMemoryWarning {
